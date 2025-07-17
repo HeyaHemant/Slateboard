@@ -1,4 +1,4 @@
-# Safed-Takhti ✏️
+# Slateboard ✏️
 
 A dynamic, feature-rich whiteboard application built with React and HTML5 Canvas that enables real-time drawing, sketching, and collaborative design work.
 
@@ -37,12 +37,12 @@ A dynamic, feature-rich whiteboard application built with React and HTML5 Canvas
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/thekartikwalia/sketch-it.git
+    git clone https://github.com/HeyaHemant/slateboard.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd sketch-it
+    cd slateboard
     ```
 
 3. Install dependencies:
@@ -66,42 +66,40 @@ A dynamic, feature-rich whiteboard application built with React and HTML5 Canvas
 
 ## Implementation Details 🛠️
 
-- Implemented custom state management using React's Context API and useReducer for optimal performance
-- Utilized useLayoutEffect for synchronous DOM mutations in shape rendering
-- Handled complex mouse events for smooth drawing experience
-- Integrated RoughJS for creating hand-drawn style elements
-- Used Perfect Freehand for natural-looking brush strokes
-- Managed tool states using a dedicated ToolActionType system
-- Implemented history management for undo/redo functionality
+- Custom state management using React's Context API and `useReducer`
+- Smooth drawing using `useLayoutEffect` for DOM sync
+- Robust mouse event handling
+- Integrated RoughJS for sketchy-style graphics
+- Integrated Perfect Freehand for natural brush strokes
+- Tool state managed via custom ToolActionType system
+- Undo/redo functionality with history state management
 
 ## Recent Updates 🆕
 
-- Added download functionality for saving work
-- Implemented color picker with enhanced UI
-- Fixed text erasing functionality using measureText
-- Added undo/redo system with history state management
-- Improved brush tool with multiple stroke options
+- Added download functionality
+- Improved color picker UI
+- Fixed text erasing using `measureText`
+- Added undo/redo system
+- Enhanced brush tool with smoother strokes
 
 ## Future Scope 🔮
 
 - **Real-time Collaboration**
-  - Implement WebSocket integration for live multi-user drawing sessions
-  - Add user cursors and presence indicators
-  - Enable real-time chat between collaborators
-  - Implement room-based collaboration system
+  - WebSocket support for multi-user drawing
+  - Live cursors and chat
+  - Room-based collaboration
 
-- **Enhanced Features**
-  - Add shape manipulation (resize, rotate, move)
-  - Implement layers system for better organization
-  - Add custom templates and stickers
-  - Enable cloud storage for saving boards
-  - Add export options in multiple formats (PNG, SVG, PDF)
+- **Feature Enhancements**
+  - Resize, rotate, and move shapes
+  - Layer system
+  - Templates, stickers, and custom shapes
+  - Export to PNG, SVG, PDF
 
 - **User Management**
-  - Implement user authentication
-  - Add personal dashboard for saved boards
-  - Enable board sharing and permissions management
-  - Add feature to create teams and organize boards
+  - Authentication
+  - Dashboard for saved boards
+  - Sharing permissions
+  - Team-based boards
 
 ## Contributing 🤝
 
@@ -119,6 +117,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact 📧
 
-Kartik Walia - [GitHub](https://github.com/thekartikwalia)
+**Hemant Kumar** – [GitHub](https://github.com/HeyaHemant)
 
-Project Link: [https://github.com/thekartikwalia/sketch-it](https://github.com/thekartikwalia/sketch-it)
+Project Link: [https://github.com/HeyaHemant/slateboard](https://github.com/HeyaHemant/slateboard)
